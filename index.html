@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Srijita Das | Backend Developer & CSE Student</title>
+  <meta name="description" content="Portfolio of Srijita Das - Computer Science Engineering Student specializing in Python, OOP, DSA, SQL, and Backend Software Development.">
+  
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,600;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- ==================== HEADER / NAVIGATION ==================== -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#home" class="nav__logo">
+        <span class="logo-bracket">&lt;</span>Srijita<span class="logo-dot">.</span>Das<span class="logo-bracket">/&gt;</span>
+      </a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+          <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+          <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+          <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+        <i class="fa-solid fa-xmark nav__close" id="nav-close"></i>
+      </div>
+
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="fa-solid fa-bars-staggered"></i>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main">
+    <!-- ==================== HERO / HOME ==================== -->
+    <section class="home section" id="home">
+      <div class="home__container container grid">
+        <div class="home__content">
+          <div class="home__badge">
+            <span class="pulse-dot"></span> Open to Trainee Software Engineer Roles
+          </div>
+          <h1 class="home__title">
+            Hello, I'm <span class="gradient-text">Srijita Das</span>
+          </h1>
+          <h2 class="home__subtitle">Computer Science Engineering Student & Backend Enthusiast</h2>
+          <p class="home__description">
+            Passionate about building scalable Python software, designing relational databases with SQL, 
+            and applying Object-Oriented Programming concepts to build functional backend systems.
+          </p>
+
+          <div class="home__buttons">
+            <a href="#contact" class="btn btn--glow">
+              <i class="fa-solid fa-paper-plane"></i> Get In Touch
+            </a>
+            <a href="assets/resume.pdf" download class="btn btn--glass">
+              <i class="fa-solid fa-file-arrow-down"></i> Download Resume
+            </a>
+          </div>
+
+          <div class="home__meta grid">
+            <div class="meta__item">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Khardaha / Kolkata, WB</span>
+            </div>
+            <div class="meta__item">
+              <i class="fa-solid fa-envelope"></i>
+              <span>srijitadas254@gmail.com</span>
+            </div>
+            <div class="meta__item">
+              <i class="fa-solid fa-phone"></i>
+              <span>+91 9875663552</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Terminal Widget Visual -->
+        <div class="home__terminal">
+          <div class="terminal__header">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <span class="terminal__title">srijita@dev-box:~</span>
+          </div>
+          <div class="terminal__body">
+            <p><span class="prompt">$</span> python3 profile.py</p>
+            <p class="code-output"><span class="keyword">class</span> <span class="class-name">SoftwareEngineer</span>:</p>
+            <p class="code-output indent"><span class="keyword">def</span> <span class="func">__init__</span>(self):</p>
+            <p class="code-output indent2">self.name = <span class="string">"Srijita Das"</span></p>
+            <p class="code-output indent2">self.role = <span class="string">"Backend Developer Aspirant"</span></p>
+            <p class="code-output indent2">self.tech_stack = [<span class="string">"Python"</span>, <span class="string">"SQL"</span>, <span class="string">"OOP"</span>, <span class="string">"DSA"</span>]</p>
+            <p class="code-output indent2">self.seeking = <span class="string">"Product-Focused Internship / Entry Role"</span></p>
+            <p><span class="prompt">$</span> <span class="cursor">_</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== ABOUT ==================== -->
+    <section class="about section" id="about">
+      <h2 class="section__title">About Me</h2>
+      <span class="section__subtitle">My background & career focus</span>
+
+      <div class="about__container container grid">
+        <div class="about__card">
+          <h3 class="about__heading"><i class="fa-solid fa-user-gear"></i> Summary</h3>
+          <p class="about__text">
+            Computer Science Engineering undergraduate with strong foundations in <strong>Python</strong>, 
+            <strong>Object-Oriented Programming (OOP)</strong>, <strong>Data Structures and Algorithms (DSA)</strong>, 
+            <strong>SQL</strong>, and <strong>Database Management Systems</strong>.
+          </p>
+          <p class="about__text">
+            Experienced in developing Python-based applications using OOP and file handling concepts, 
+            with a strong focus on backend software development. Currently strengthening skills in 
+            building data-driven backend applications and efficient database queries. Seeking a 
+            <strong>Trainee Software Engineer</strong> opportunity to apply problem-solving and software development skills in a product-focused environment.
+          </p>
+
+          <h3 class="about__heading mt-2"><i class="fa-solid fa-book-bookmark"></i> Core Coursework</h3>
+          <div class="about__tags">
+            <span class="tag"><i class="fa-solid fa-database"></i> DBMS</span>
+            <span class="tag"><i class="fa-solid fa-network-wired"></i> Computer Networks</span>
+            <span class="tag"><i class="fa-solid fa-microchip"></i> Operating Systems</span>
+            <span class="tag"><i class="fa-solid fa-diagram-project"></i> Software Engineering</span>
+            <span class="tag"><i class="fa-solid fa-code"></i> Programming for Problem Solving</span>
+          </div>
+
+          <h3 class="about__heading mt-2"><i class="fa-solid fa-heart"></i> Areas of Interest</h3>
+          <div class="about__tags">
+            <span class="tag tag--accent">Backend Development</span>
+            <span class="tag tag--accent">Problem Solving</span>
+            <span class="tag tag--accent">Software Development</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SKILLS ==================== -->
+    <section class="skills section" id="skills">
+      <h2 class="section__title">Technical Skills</h2>
+      <span class="section__subtitle">Categorized competencies & proficiency levels</span>
+
+      <div class="skills__container container grid">
+
+        <!-- Skill Card 1: Python -->
+        <div class="skills__card">
+          <div class="skills__icon-box">
+            <i class="fa-brands fa-python"></i>
+          </div>
+          <div class="skills__info">
+            <div class="skills__title-row">
+              <h3>Python</h3>
+              <span class="badge badge--intermediate">Intermediate</span>
+            </div>
+            <p class="skills__desc">Object-Oriented Programming, File Handling, Exception Handling, Functions, Data Structures, Algorithmic Problem Solving.</p>
+          </div>
+        </div>
+
+        <!-- Skill Card 2: SQL & Database -->
+        <div class="skills__card">
+          <div class="skills__icon-box">
+            <i class="fa-solid fa-database"></i>
+          </div>
+          <div class="skills__info">
+            <div class="skills__title-row">
+              <h3>SQL & DBMS</h3>
+              <span class="badge badge--intermediate">Intermediate</span>
+            </div>
+            <p class="skills__desc">MySQL, Relational Database Design, Complex Joins, Aggregate Functions, GROUP BY, Subqueries, Normalization.</p>
+          </div>
+        </div>
+
+        <!-- Skill Card 3: OOP -->
+        <div class="skills__card">
+          <div class="skills__icon-box">
+            <i class="fa-solid fa-cubes"></i>
+          </div>
+          <div class="skills__info">
+            <div class="skills__title-row">
+              <h3>Object-Oriented Programming</h3>
+              <span class="badge badge--intermediate">Intermediate</span>
+            </div>
+            <p class="skills__desc">Classes, Objects, Inheritance, Polymorphism, Encapsulation, Abstraction, Clean Code Practices.</p>
+          </div>
+        </div>
+
+        <!-- Skill Card 4: Web Stack -->
+        <div class="skills__card">
+          <div class="skills__icon-box">
+            <i class="fa-solid fa-globe"></i>
+          </div>
+          <div class="skills__info">
+            <div class="skills__title-row">
+              <h3>Web Fundamentals</h3>
+              <span class="badge badge--beginner">Working Knowledge</span>
+            </div>
+            <p class="skills__desc">HTML5, CSS3, JavaScript for web user interfaces and dynamic user input forms.</p>
+          </div>
+        </div>
+
+        <!-- Skill Card 5: DSA -->
+        <div class="skills__card">
+          <div class="skills__icon-box">
+            <i class="fa-solid fa-code-compare"></i>
+          </div>
+          <div class="skills__info">
+            <div class="skills__title-row">
+              <h3>DSA</h3>
+              <span class="badge badge--beginner">Beginner</span>
+            </div>
+            <p class="skills__desc">Arrays, Strings, Linear & Binary Searching, Sorting Algorithms, Recursion, Time & Space Complexity.</p>
+          </div>
+        </div>
+
+        <!-- Skill Card 6: Git & Tools -->
+        <div class="skills__card">
+          <div class="skills__icon-box">
+            <i class="fa-brands fa-git-alt"></i>
+          </div>
+          <div class="skills__info">
+            <div class="skills__title-row">
+              <h3>Git & Development Tools</h3>
+              <span class="badge badge--intermediate">Intermediate</span>
+            </div>
+            <p class="skills__desc">Git, GitHub, Repository Management, Branching, VS Code, Command Line Tools.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== PROJECTS ==================== -->
+    <section class="projects section" id="projects">
+      <h2 class="section__title">Projects</h2>
+      <span class="section__subtitle">Featured applications and technical implementations</span>
+
+      <div class="projects__container container grid">
+
+        <!-- Project 1: Resume Main Project -->
+        <div class="project__card project__card--featured">
+          <div class="project__header">
+            <span class="project__type"><i class="fa-solid fa-terminal"></i> Core Python Application</span>
+            <span class="project__date">2026 – Present</span>
+          </div>
+          <h3 class="project__title">Student Management System</h3>
+          <p class="project__description">
+            A comprehensive console-based software system built using Python and Object-Oriented Programming (OOP) 
+            principles. Features file handling for persistent data storage across application sessions.
+          </p>
+          
+          <ul class="project__bullet-list">
+            <li><i class="fa-solid fa-check"></i> Designed complete CRUD (Create, Read, Update, Delete) architecture for student records.</li>
+            <li><i class="fa-solid fa-check"></i> Applied Encapsulation, Methods, and Custom Classes to separate record logic from UI.</li>
+            <li><i class="fa-solid fa-check"></i> Integrated robust Exception Handling and regex-based input validation to prevent invalid data entry.</li>
+            <li><i class="fa-solid fa-check"></i> Built a modular, menu-driven CLI interface for user interactions.</li>
+          </ul>
+
+          <div class="project__tags">
+            <span>Python 3</span>
+            <span>OOP</span>
+            <span>File I/O</span>
+            <span>Exception Handling</span>
+            <span>CLI Design</span>
+          </div>
+
+          <div class="project__actions">
+            <a href="https://github.com/yourusername/student-management-system" target="_blank" rel="noopener" class="btn btn--small btn--glow">
+              <i class="fa-brands fa-github"></i> Source Code
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 2: Tailored Demo (SQL Database System) -->
+        <div class="project__card">
+          <div class="project__header">
+            <span class="project__type"><i class="fa-solid fa-database"></i> Database & SQL Project</span>
+            <span class="project__date">Demo Project</span>
+          </div>
+          <h3 class="project__title">E-Commerce Inventory Database System</h3>
+          <p class="project__description">
+            A relational MySQL database schema designed for managing store products, category hierarchies, and order records efficiently.
+          </p>
+
+          <ul class="project__bullet-list">
+            <li><i class="fa-solid fa-check"></i> Authored optimized SQL queries using multi-table JOINs, GROUP BY, and Subqueries.</li>
+            <li><i class="fa-solid fa-check"></i> Implemented database foreign keys, constraints, and index optimizations.</li>
+          </ul>
+
+          <div class="project__tags">
+            <span>MySQL</span>
+            <span>DBMS</span>
+            <span>Relational Schema</span>
+            <span>SQL Subqueries</span>
+          </div>
+
+          <div class="project__actions">
+            <a href="https://github.com/yourusername/inventory-sql-db" target="_blank" rel="noopener" class="btn btn--small btn--glass">
+              <i class="fa-brands fa-github"></i> Repository
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 3: Tailored Demo (Python Web Scraper / Data Parser) -->
+        <div class="project__card">
+          <div class="project__header">
+            <span class="project__type"><i class="fa-solid fa-file-code"></i> Python Automation</span>
+            <span class="project__date">Demo Project</span>
+          </div>
+          <h3 class="project__title">Automated Web Data Scraper & Parser</h3>
+          <p class="project__description">
+            Python script utilizing requests and parsing logic to extract structured tech information from public web sources into structured CSV files.
+          </p>
+
+          <ul class="project__bullet-list">
+            <li><i class="fa-solid fa-check"></i> Applied Python data structures (Lists, Dicts) for memory-efficient parsing.</li>
+            <li><i class="fa-solid fa-check"></i> Implemented automated error handling and file persistence for clean outputs.</li>
+          </ul>
+
+          <div class="project__tags">
+            <span>Python</span>
+            <span>Data Parsing</span>
+            <span>File Handling</span>
+            <span>Automation</span>
+          </div>
+
+          <div class="project__actions">
+            <a href="https://github.com/yourusername/python-data-scraper" target="_blank" rel="noopener" class="btn btn--small btn--glass">
+              <i class="fa-brands fa-github"></i> Repository
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 4: Developer Portfolio -->
+        <div class="project__card">
+          <div class="project__header">
+            <span class="project__type"><i class="fa-solid fa-laptop-code"></i> Frontend Web</span>
+            <span class="project__date">2026</span>
+          </div>
+          <h3 class="project__title">Personal Developer Portfolio Website</h3>
+          <p class="project__description">
+            Modern, highly responsive personal portfolio website crafted to display projects, technical skills, academic credentials, and resume.
+          </p>
+
+          <ul class="project__bullet-list">
+            <li><i class="fa-solid fa-check"></i> Built with responsive HTML5, CSS Grid/Flexbox, and custom JavaScript validation.</li>
+            <li><i class="fa-solid fa-check"></i> Mobile-first architecture with smooth scrolling and dynamic navigation menus.</li>
+          </ul>
+
+          <div class="project__tags">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+            <span>Responsive UI</span>
+          </div>
+
+          <div class="project__actions">
+            <a href="https://github.com/yourusername/personal-portfolio" target="_blank" rel="noopener" class="btn btn--small btn--glass">
+              <i class="fa-brands fa-github"></i> Repository
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== EDUCATION ==================== -->
+    <section class="education section" id="education">
+      <h2 class="section__title">Education</h2>
+      <span class="section__subtitle">Academic qualifications and institutional details</span>
+
+      <div class="education__container container">
+        <div class="education__card">
+          <div class="education__icon">
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
+          <div class="education__content">
+            <div class="education__header">
+              <div>
+                <h3 class="education__degree">Bachelor of Technology (B.Tech)</h3>
+                <h4 class="education__dept">Computer Science and Engineering</h4>
+                <p class="education__college">RCC Institute of Information Technology</p>
+                <p class="education__loc"><i class="fa-solid fa-location-dot"></i> Kolkata, West Bengal, India</p>
+              </div>
+              <div class="education__badge-wrapper">
+                <span class="badge badge--time">2023 – 2027 (Expected)</span>
+                <div class="cgpa-pill">
+                  <span>CGPA</span> <strong>7.83 / 10</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT ==================== -->
+    <section class="contact section" id="contact">
+      <h2 class="section__title">Get In Touch</h2>
+      <span class="section__subtitle">Let's discuss opportunities, projects, or collaborations</span>
+
+      <div class="contact__container container grid">
+        <div class="contact__cards grid">
+
+          <div class="contact__info-card">
+            <i class="fa-solid fa-envelope contact__icon"></i>
+            <h3>Email</h3>
+            <p>srijitadas254@gmail.com</p>
+            <a href="mailto:srijitadas254@gmail.com" class="contact__link">Send Email <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+
+          <div class="contact__info-card">
+            <i class="fa-solid fa-phone contact__icon"></i>
+            <h3>Phone</h3>
+            <p>+91 9875663552</p>
+            <a href="tel:9875663552" class="contact__link">Call Direct <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+
+          <div class="contact__info-card">
+            <i class="fa-solid fa-location-dot contact__icon"></i>
+            <h3>Location</h3>
+            <p>Khardaha, West Bengal, India</p>
+            <span class="contact__meta">Kolkata Metropolitan Region</span>
+          </div>
+
+        </div>
+
+        <!-- Form with JavaScript validation -->
+        <form id="contactForm" class="contact__form" novalidate>
+          <div class="form-group">
+            <label for="name">Your Name *</label>
+            <input type="text" id="name" name="name" class="form-input" placeholder="e.g., Ananya Roy">
+            <span class="error-msg" id="nameError"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Your Email *</label>
+            <input type="email" id="email" name="email" class="form-input" placeholder="e.g., ananya@example.com">
+            <span class="error-msg" id="emailError"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Your Message *</label>
+            <textarea id="message" name="message" rows="5" class="form-input" placeholder="Hello Srijita, I'd like to talk about..."></textarea>
+            <span class="error-msg" id="messageError"></span>
+          </div>
+
+          <button type="submit" class="btn btn--glow btn--full">
+            <i class="fa-solid fa-paper-plane"></i> Send Message
+          </button>
+          <p id="formStatus" class="form-status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="footer__container container">
+      <div class="footer__brand">
+        <a href="#home" class="footer__logo">&lt;Srijita<span class="logo-dot">.</span>Das/&gt;</a>
+        <p>B.Tech CSE Undergraduate | Backend Software Engineer Aspirant</p>
+      </div>
+
+      <div class="footer__socials">
+        <a href="https://github.com/yourusername" target="_blank" rel="noopener" aria-label="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="mailto:srijitadas254@gmail.com" aria-label="Email">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p>&copy; <span id="year"></span> Srijita Das. Handcrafted for web excellence.</p>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript File -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
